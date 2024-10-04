@@ -19,3 +19,11 @@
 ### 3. press "install"
 
 ### 4. A new folder will appear on your desktop. Open the folder and there will be a file of the software inside
+
+# uninstall
+
+### 1. After the installation, a folder will appear. Inside the folder, there is a shortcut to the software files
+
+### 2. Just delete the software folder, and that's it!
+
+#### The End!
