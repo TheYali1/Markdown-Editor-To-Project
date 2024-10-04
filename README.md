@@ -2,7 +2,7 @@
 **Just A simple Markdown Editor To Project**
 <br>
 [![supportisraelbanner](https://i.imagesup.co/images2/8e6cc77363c700198839ae0da7d7fe2409f07647.png)](https://github.com/TheYali1/support-israel-banner/tree/main)
-<br>
+</br>
 ![image1](https://i.imagesup.co/images2/de1f2c276cf0b1a8c73eb24901e8fdb0878bcdd3.png)
 
 # setup
@@ -26,4 +26,5 @@
 
 ### 2. Just delete the software folder, and that's it!
 
+<br></br>
 #### The End!
