@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Editor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Markdown Editor To Project</h1>
+        <div class="toolbar">
+            <button onclick="addBold()">Bold</button>
+            <button onclick="addItalic()">Italic</button>
+            <button onclick="addHeading()">Heading</button>
+            <button onclick="addImage()">Image</button>
+            <button onclick="addLink()">Link</button>
+        </div>
+
+        <div class="editor-container">
+            <textarea id="markdown-input" placeholder="Write your markdown here..."></textarea>
+            <div id="markdown-preview"></div>
+        </div>
+
+        <div class="footer">
+            <p>
+                Created by The Yali 
+                <a href="https://github.com/yourusername" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" class="github-icon" />
+                </a>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
