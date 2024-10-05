@@ -34,6 +34,10 @@ function addLink() {
     insertText('[link text](url)');
 }
 
+function addcode() {
+    insertText('```md\nCode Block\n```');
+}
+
 function insertText(markdown) {
     const input = document.getElementById('markdown-input');
     const start = input.selectionStart;
