@@ -35,9 +35,7 @@ function addLink() {
 }
 
 function addcode() {
-    insertText('```md');
-    insertText('Code Block');
-    insertText('```');
+    insertText('```md\nCode Block\n```');
 }
 
 function insertText(markdown) {
